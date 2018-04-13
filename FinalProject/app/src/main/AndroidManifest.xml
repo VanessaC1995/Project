@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vanessa.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/badmintonr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".MainMenu2" />
+        <activity android:name=".Ranks" />
+        <activity android:name=".RanksList" />
+        <activity android:name=".EditData" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".coachProgress" />
+        <activity android:name=".UlsterLeague" />
+        <activity android:name=".INfo"></activity>
+    </application>
+
+</manifest>
